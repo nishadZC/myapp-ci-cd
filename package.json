@@ -1,0 +1,21 @@
+{
+  "name": "myapp-ci-cd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishadZC/myapp-ci-cd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nishadZC/myapp-ci-cd/issues"
+  },
+  "homepage": "https://github.com/nishadZC/myapp-ci-cd#readme"
+}
