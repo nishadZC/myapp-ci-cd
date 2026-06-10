@@ -1,18 +1,22 @@
 version: 0.2
+
 phases:
- install:
- runtime-versions:
- nodejs: 26
- pre_build:
- commands:
- - echo "Installing dependencies..."
- - npm install
- build:
- commands:
- - echo "Build started on `date`"
- - echo "No build steps required for this simple app"
- - echo "Build completed on `date`"
+  install:
+    runtime-versions:
+      nodejs: 16
+
+  pre_build:
+    commands:
+      - echo "Installing dependencies..."
+      - npm install
+
+  build:
+    commands:
+      - echo "Build started on `date`"
+      - echo "No build steps required for this simple app"
+      - echo "Build completed on `date`"
+
 artifacts:
- files:
- - '**/*'
- name: MyAppArtifacts
+  files:
+    - '**/*'
+  name: MyAppArtifacts
